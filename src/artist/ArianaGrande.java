@@ -13,11 +13,11 @@ public class ArianaGrande {
     
     public ArrayList<Song> getArianaGrandeSongs() {
     	
-    	 albumTracks = new ArrayList<Song>();                                   //Instantiate the album so we can populate it below
-    	 Song track1 = new Song("Greedy", "Ariana Grande");             		//Create a song
-         Song track2 = new Song("NASA", "Ariana Grande");        				 //Create another song
-         this.albumTracks.add(track1);                                          //Add the first song to song list for Ariana Grande
-         this.albumTracks.add(track2);                                          //Add the second song to song list for Ariana Grande
-         return albumTracks;                                                    //Return the songs for ArianaGrande in the form of an ArrayList
+    	 albumTracks = new ArrayList<Song>();                                 
+    	 Song track1 = new Song("Greedy", "Ariana Grande");             		
+         Song track2 = new Song("NASA", "Ariana Grande");        				
+         this.albumTracks.add(track1);                                          
+         this.albumTracks.add(track2);                                         
+         return albumTracks;                                                    
     }
 }
