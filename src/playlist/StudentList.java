@@ -18,11 +18,8 @@ public class StudentList {
 		String StudentName2 = "TestStudent2Name";
 		studentNames.add(StudentName2);
 		
-		//Module 5 Code Assignment
-		//Add your name to create a new student profile
-		//Use template below and put your name in the areas of 'StudentName'
-		String JustinPerault = "Justin Perault";
-		studentNames.add(JustinPerault);
+		String BrettFerguson = "Brett Ferguson";
+		studentNames.add(BrettFerguson);
 		
 		//Add AngelaRuhstorfer new student profile to StudentList
 		String AngelaRuhstorfer = "Angela Ruhstorfer";
